@@ -1,11 +1,118 @@
 
 .background{
     /* background: black; */
+    height: 30em;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+    /* align-items: center; */
+    
    
     /* height: 50em; */
 }
+.head{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    font-size: 1.6em;
+    height: 4em;
+    width: 100;
+    border: 3px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+    
+.leftnav{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.rightnav{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.img{
+    border-radius: 10em;
+}
+
+.r1{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r2{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.l1{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.l2{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.l3{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.banner{
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+@keyframes typing {
+    from{width:0}
+    to {width: 100%;}
+}
 .text{
+    /* margin: 1em; */
+   
+    
+    overflow: hidden;
+    border-right: .15em solid grey;
+    font-size: 1.6rem;
+    width: 0;
+    font-family: cursive;
+    white-space: nowrap;
+    animation: typing 1.5s steps(20,end) forwards;
+} 
+
+/* .text{
+
     margin-left: 10%;
     font-family:cursive;
     font-size: 48px;
@@ -20,28 +127,15 @@
         mask-size: 1000%
     }
     
-}
+} */
+
+
 .downnav{
     width: 15%;
-    text-align: center;
+    
     display: flex;
     justify-content: space-around;
-    padding-left: 42.5%;
+   
     
 
 }
-/* .head{
-    display: inline-block;
-}
-@keyframes typing {
-    from{width:0}
-    to {width: 100%;}
-}
-.text{
-    overflow: hidden;
-    border-right: .15em solid grey;
-    font-size: 1.6rem;
-    width: 0;
-    white-space: nowrap;
-    animation: typing 1.5s steps(20,end) forwards;
-} */

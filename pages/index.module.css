@@ -5,7 +5,23 @@
    
     /* height: 50em; */
 }
+@keyframes typing {
+    from{width:0}
+    to {width: 100%;}
+}
 .text{
+    /* margin: 1em; */
+   
+    
+    overflow: hidden;
+    border-right: .15em solid grey;
+    font-size: 1.6rem;
+    width: 0;
+    font-family: cursive;
+    white-space: nowrap;
+    animation: typing 1.5s steps(20,end) forwards;
+} 
+/* .text{
     margin-left: 10%;
     font-family:cursive;
     font-size: 48px;
@@ -20,7 +36,7 @@
         mask-size: 1000%
     }
     
-}
+} */
 .downnav{
     width: 15%;
     text-align: center;
@@ -41,10 +57,10 @@
     justify-content: space-between;
     align-items: center;
 }
-/* .head{
+.head{
     display: inline-block;
 }
-@keyframes typing {
+/* @keyframes typing {
     from{width:0}
     to {width: 100%;}
 }
@@ -55,4 +71,4 @@
     width: 0;
     white-space: nowrap;
     animation: typing 1.5s steps(20,end) forwards;
-} */
+} */ 

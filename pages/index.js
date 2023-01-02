@@ -15,14 +15,26 @@ export default function Home() {
         <p className = {styles.text}>Hi! This is Qianli</p>
       </div>
       <div className={styles.navbar}>
-      <Link href= "/" className={styles.r1}>
-                Home
-                <AiOutlineHome/>
-              </Link>
-              <Link href= "/" className={styles.r2}>
-                中文 |
-                {/* <AiOutlineZhihu/> */}
-              </Link>
+        <Link href= "/" className={styles.r1}>
+          Home
+          <AiOutlineHome/>
+        </Link>
+          <Link href= "/" className={styles.r2}>
+            中文 |
+            <AiOutlineZhihu/>
+        </Link>
+        <Link href= "/" className={styles.l1}>
+                Projects
+                <AiOutlineExperiment/>
+        </Link>
+        <Link href= "/blog" className={styles.l2}>
+                Blog
+                <AiOutlineLaptop/>
+        </Link>
+        <Link href= "/" className={styles.l3}>
+              Contact
+              <AiOutlineMail/>
+        </Link>
       </div>
       <Image src = {profilepic} alt="profile pic" width={500} height={500}/>
       <div className={styles.downnav}>
@@ -39,6 +51,7 @@ export default function Home() {
         <Link href="https://www.instagram.com/d_qianli/">
           <AiOutlineInstagram style={{fontSize:'3em',color:'black'}}/>
         </Link>
+       
 
 
       </div>

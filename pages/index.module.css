@@ -1,7 +1,12 @@
 
 .background{
     /* background: black; */
+    height: 40em;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
    
     /* height: 50em; */
 }
@@ -42,7 +47,7 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
-    padding-left: 42.5%;
+   
     
 
 }
@@ -51,7 +56,7 @@
     padding-right: 10%; */
     font-size: 1.6em;
     height: 4em;
-    width: 100;
+    width: 100%;
     border: 3px solid #000;
     display: flex;
     justify-content: space-between;
@@ -117,15 +122,4 @@
     align-items: flex-end;
     
 }
-/* @keyframes typing {
-    from{width:0}
-    to {width: 100%;}
-}
-.text{
-    overflow: hidden;
-    border-right: .15em solid grey;
-    font-size: 1.6rem;
-    width: 0;
-    white-space: nowrap;
-    animation: typing 1.5s steps(20,end) forwards;
-} */ 
+

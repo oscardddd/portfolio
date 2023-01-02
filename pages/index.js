@@ -24,7 +24,7 @@ export default function Home() {
               </Link>
               <Link href= "/" className={styles.r2}>
                 中文 |
-                <AiOutlineZhihu/>
+                {/* <AiOutlineZhihu/> */}
               </Link>
               
             </div>

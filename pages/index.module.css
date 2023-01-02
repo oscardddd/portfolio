@@ -30,6 +30,17 @@
     
 
 }
+.navbar{
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    font-size: 1.6em;
+    height: 4em;
+    width: 100;
+    border: 3px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* .head{
     display: inline-block;
 }

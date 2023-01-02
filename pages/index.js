@@ -1,6 +1,7 @@
 import styles from "./index.module.css"
 import Head from 'next/head'
-import {AiFillGithub,AiOutlineWechat,AiOutlineMail,AiOutlineLinkedin,AiOutlineInstagram} from "react-icons/ai";
+import {AiFillGithub,AiOutlineWechat,AiOutlineMail,AiOutlineLinkedin,AiOutlineInstagram, AiOutlineHome,AiOutlineExperiment,
+  AiOutlineLaptop,AiOutlineZhihu} from "react-icons/ai"; 
 import Link from "next/link";
 import Image from "next/image";
 import profilepic from "../public/pic2.jpg"
@@ -12,6 +13,16 @@ export default function Home() {
       
       <div className={styles.head}>
         <p className = {styles.text}>Hi! This is Qianli</p>
+      </div>
+      <div className={styles.navbar}>
+      <Link href= "/" className={styles.r1}>
+                Home
+                <AiOutlineHome/>
+              </Link>
+              <Link href= "/" className={styles.r2}>
+                中文 |
+                {/* <AiOutlineZhihu/> */}
+              </Link>
       </div>
       <Image src = {profilepic} alt="profile pic" width={500} height={500}/>
       <div className={styles.downnav}>

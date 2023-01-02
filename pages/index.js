@@ -15,14 +15,18 @@ export default function Home() {
         <p className = {styles.text}>Hi! This is Qianli</p>
       </div>
       <div className={styles.navbar}>
+      <div className={styles.leftnav}>
         <Link href= "/" className={styles.r1}>
-          Home
-          <AiOutlineHome/>
+                Home
+                <AiOutlineHome/>
         </Link>
-          <Link href= "/" className={styles.r2}>
-            中文 |
-            <AiOutlineZhihu/>
+        <Link href= "/" className={styles.r2}>
+                中文 |
+                {/* <AiOutlineZhihu/> */}
         </Link>
+              
+      </div>
+      <div className={styles.rightnav}>
         <Link href= "/" className={styles.l1}>
                 Projects
                 <AiOutlineExperiment/>
@@ -35,6 +39,7 @@ export default function Home() {
               Contact
               <AiOutlineMail/>
         </Link>
+        </div>
       </div>
       <Image src = {profilepic} alt="profile pic" width={500} height={500}/>
       <div className={styles.downnav}>

@@ -9,6 +9,8 @@ import profilepic from "../public/pic2.jpg"
 export default function Home() {
   return(
     <>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
     <div className={styles.head}>
       <p className = {styles.text}>Hi! This is Qianli</p>
     </div>
@@ -20,7 +22,7 @@ export default function Home() {
                   Home
                   <AiOutlineHome/>
           </Link>
-          <Link href= "/" className={styles.r2}>
+          <Link href= "/chinese" className={styles.r2}>
                   中文 |
                   {/* <AiOutlineZhihu/> */}
           </Link>
@@ -41,7 +43,17 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <Image className= {styles.img} src = {profilepic} alt="profile pic" width={300} height={300}/>
+      <div className={styles.middle}>
+        <Image className= {styles.img} src = {profilepic} alt="profile pic" width={300} height={300}/>
+        
+        <div className={styles.box1}>
+          <div className={styles.upperbox1}>About</div>
+         
+          <div className={styles.upperbox2}> Hi all! My name is Qianli Dong(Oscar), I am currently a second-year student at Northwestern University majoring in Computer Science.</div>
+        </div>
+      </div>
+        
+  
       <div className={styles.downnav}>
         <Link href="https://github.com/oscardddd">
           <AiFillGithub style={{ fontSize: '3em',color:'black'}}/>

@@ -1,7 +1,7 @@
 
 .background{
     /* background: black; */
-    height: 40em;
+    height: 50em;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,7 @@
     font-family: cursive;
     white-space: nowrap;
     animation: typing 1.5s steps(20,end) forwards;
+   
 } 
 /* .text{
     margin-left: 10%;
@@ -64,6 +65,39 @@
 }
 .head{
     display: inline-block;
+    padding-left: 1em;
+}
+
+.middle{
+  display: flex;
+  height: 30%;
+  justify-content: center;
+    
+}
+
+
+.box1{
+    text-indent: 1em;
+    font-family: cursive;
+    font-size: 2em;
+    width: 40%;
+    height: 100%;
+  
+}
+.upperbox1{
+  
+    border: #000 solid 3px;
+
+}
+.upperbox2{
+    
+    border: #000 solid 3px;
+
+    padding-left: 0.5em;
+}
+.upperbox2:hover{
+    box-shadow:  10px 10px 0.5px 0.1px rgba(0, 0, 0, 0.6);
+
 }
 .leftnav{
     width: 20%;
@@ -82,6 +116,8 @@
 }
 .img{
     border-radius: 10em;
+    margin-right: 20em;
+    margin-top: 0;
 }
 
 .r1{
@@ -91,6 +127,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: cursive;
 }
 .r2{
     text-decoration: none;
@@ -98,6 +135,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-family: cursive;
 }
 
 .l1{
@@ -106,6 +144,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-family: cursive;
 }
 .l2{
     text-decoration: none;
@@ -113,6 +152,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-family: cursive;
 }
 .l3{
     text-decoration: none;
@@ -120,6 +160,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-family: cursive;
     
 }
 

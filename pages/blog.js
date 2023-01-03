@@ -1,5 +1,12 @@
+import Head from "next/head"
+
+
 export default function Blog(){
     return(
-        <h>The blog page</h>
+        <div className={styles.background}>
+
+            
+            
+        </div>
     )
 }

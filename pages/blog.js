@@ -5,7 +5,7 @@ export default function Blog(){
     return(
         <div>
             <Head>
-                Blog
+                <title>Random post of Oscarrrrrrr</title>
             </Head>
             
             

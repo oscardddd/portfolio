@@ -7,7 +7,7 @@ import styles from "./header.module.css"
 
 
 
-export default function Header(){
+const Header=()=>{
     return (
 
         <div className={styles.navbar}>
@@ -49,3 +49,4 @@ export default function Header(){
         
     )
 }
+export default Header

@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import profilepic from "../public/pic2.jpg"
 import { StickyContainer,Sticky} from "react-sticky";
-import Header from "./header.js";
+import Header from "../components/Header.js";
 import schoolpic from "../public/school.png"
 import swe from "../public/swe.jpg"
 import hooper from "../public/hooper.jpg"

@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import profilepic from "../public/pic2.jpg"
 import { StickyContainer,Sticky} from "react-sticky";
-import Header from "./Header";
+import Header from "./header.js";
 import schoolpic from "../public/school.png"
 import swe from "../public/swe.jpg"
 import hooper from "../public/hooper.jpg"
@@ -16,9 +16,9 @@ import hooper from "../public/hooper.jpg"
 export default function Home() {
   return(
     <>
-      
-    <div className={styles.background}>
     <Header/>
+    <div className={styles.background}>
+    
     
     <div>
 
@@ -33,7 +33,9 @@ export default function Home() {
             <div>Hi all! My name is Qianli Dong(Oscar), I am a.....</div>
             
             <div className={styles.line1}>
-              <Image src={schoolpic} width={200} height={200}></Image>
+              <Link href="https://www.northwestern.edu/">
+                <Image src={schoolpic} width={200} height={200}></Image>
+              </Link>
               <div>Sophomore at Northwestern University, IL</div>
             </div>
             <div className={styles.line2}>

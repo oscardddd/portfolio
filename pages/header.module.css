@@ -23,7 +23,7 @@
     padding-right: 10%; */
     
     
-    height: 4em;
+    height: 4rem;
     width: 100%;
     border: 3px solid #000;
     display: flex;
@@ -49,14 +49,19 @@
     align-items: center;
     font-family: cursive;
 }
-.r2{
+.r1:hover{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+/* .r2{
     text-decoration: none;
     color: #000;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     font-family: cursive;
-}
+} */
+
 
 .l1{
     text-decoration: none;
@@ -66,6 +71,11 @@
     align-items: flex-end;
     font-family: cursive;
 }
+.l1:hover{
+    font-size: 1.2em;
+    text-decoration: underline;
+
+}
 .l2{
     text-decoration: none;
     color: #000;
@@ -73,6 +83,10 @@
     justify-content: center;
     align-items: flex-end;
     font-family: cursive;
+}
+.l2:hover{
+    font-size: 1.2em;
+    text-decoration: underline;
 }
 .l3{
     text-decoration: none;
@@ -82,4 +96,8 @@
     align-items: flex-end;
     font-family: cursive;
     
+}
+.l3:hover{
+    font-size: 1.2em;
+    text-decoration: underline;
 }

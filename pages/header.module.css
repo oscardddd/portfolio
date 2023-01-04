@@ -1,0 +1,85 @@
+@keyframes typing {
+    from{width:0}
+    to {width: 100%;}
+}
+.text{
+    overflow: hidden;
+    border-right: .15em solid grey;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    font-family: cursive;
+    animation: typing 1.5s steps(20,end) forwards;
+   
+   
+} 
+.head{
+    display: inline-block;
+    padding-left: 1em;
+}
+
+.navbar{
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    
+    
+    height: 4em;
+    width: 100%;
+    border: 3px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.rightnav{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.r1{
+    
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.r2{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: cursive;
+}
+
+.l1{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: cursive;
+}
+.l2{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: cursive;
+}
+.l3{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: cursive;
+    
+}

@@ -5,53 +5,50 @@ import {AiFillGithub,AiOutlineWechat,AiOutlineMail,AiOutlineLinkedin,AiOutlineIn
 import Link from "next/link";
 import Image from "next/image";
 import profilepic from "../public/pic2.jpg"
+import { StickyContainer,Sticky} from "react-sticky";
+import Header from "./Header";
+import schoolpic from "../public/school.png"
+import swe from "../public/swe.jpg"
+import hooper from "../public/hooper.jpg"
+
+
 
 export default function Home() {
   return(
     <>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-
-    <div className={styles.head}>
-      <p className = {styles.text}>Hi! This is Qianli</p>
-    </div>
+      
     <div className={styles.background}>
+    <Header/>
+    
+    <div>
 
-      <div className={styles.navbar}>
-        <div className={styles.leftnav}>
-          <Link href= "/" className={styles.r1}>
-                  Home
-                  <AiOutlineHome/>
-          </Link>
-          <Link href= "/chinese" className={styles.r2}>
-                  中文 |
-                  {/* <AiOutlineZhihu/> */}
-          </Link>
-              
-        </div>
-        <div className={styles.rightnav}>
-          <Link href= "/" className={styles.l1}>
-                  Projects
-                  <AiOutlineExperiment/>
-          </Link>
-          <Link href= "/blog" className={styles.l2}>
-                  Blog
-                  <AiOutlineLaptop/>
-          </Link>
-          <Link href= "/" className={styles.l3}>
-                Contact
-                <AiOutlineMail/>
-          </Link>
-        </div>
-      </div>
-      <div className={styles.middle}>
-        <Image className= {styles.img} src = {profilepic} alt="profile pic" width={300} height={300}/>
+    </div>
+     
+
         
         <div className={styles.box1}>
-          <div className={styles.upperbox1}>About</div>
+          <div className={styles.upperbox1}>About ⚆_⚆</div>
          
-          <div className={styles.upperbox2}> Hi all! My name is Qianli Dong(Oscar), I am currently a second-year student at Northwestern University majoring in Computer Science.</div>
+          <div className={styles.upperbox2}> 
+            <div>Hi all! My name is Qianli Dong(Oscar), I am a.....</div>
+            
+            <div className={styles.line1}>
+              <Image src={schoolpic} width={200} height={200}></Image>
+              <div>Sophomore at Northwestern University, IL</div>
+            </div>
+            <div className={styles.line2}>
+              <Image className={styles.sweimg} src={swe} width={200} height={200} ></Image>
+              <div>Software Engineer</div>
+              <div className={styles.line21}>(bad at CSS I know)</div>
+            </div>
+            <div className={styles.line3}>
+              <Image className={styles.hoop} src={hooper} width={200} height={200}></Image>
+              <div className={styles.line31}>小黑子</div>
+              <div>Hooper</div>
+            </div>
+          </div>  
         </div>
-      </div>
+      
         
   
       <div className={styles.downnav}>
@@ -71,12 +68,7 @@ export default function Home() {
       </div>
       </div>
       
-      <style jsx global>{`
-        body {
-        margin: none;
-        background-color:rgba(72, 122, 180, .5);
-      }
-    `}</style>
+     
     </>
     
 

@@ -1,4 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     padding: none;
     margin: none;
+    /* min-height: 100vh;
+    width: auto; */
+}
+*{
+    /* box-sizing: border-box; */
 }

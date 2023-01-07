@@ -1,3 +1,17 @@
+@media screen and (max-width: 600px){
+    .rightnav{
+        width: 0px;
+        height: 0px;
+    }
+    .navbar{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+
+
+
 @keyframes typing {
     from{width:0}
     to {width: 100%;}

@@ -1,7 +1,11 @@
+@media screen and (max-width: 600px){
+    
+}
+
 .background{
     
-    
-    height: 80em;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,6 +13,8 @@
 }
 
 .background::before{
+    width: auto;
+    height: 100vh;
     content: "";
     background-image: url("../public/pic2.jpg") ;
     /* background-size: cover; */
@@ -23,7 +29,10 @@
     opacity: 0.3;
 
 }
-
+.nav{
+    width: 100%;
+    position: fixed;
+}
 @keyframes slidein {
     from {
       margin-left: 100%;
@@ -61,6 +70,7 @@
 
 
 .box1{
+    padding-top: 10%;
     text-indent: 1em;
     font-family: Comic Sans MS, Lucida Handwriting;
     font-size: 2em;

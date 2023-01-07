@@ -16,16 +16,15 @@ import hooper from "../public/hooper.jpg"
 export default function Home() {
   return(
     <>
-    <Header/>
+    <Head>
+        <meta content="width=device-width, initial-scale=1" />
+
+    </Head>
+    <nav className={styles.nav}>
+      <Header/>
+    </nav>
     <div className={styles.background}>
-    
-    
-    <div>
-
-    </div>
-     
-
-        
+ 
         <div className={styles.box1}>
           <div className={styles.upperbox1}>About ⚆_⚆</div>
          

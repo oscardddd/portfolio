@@ -135,6 +135,7 @@
 
 @media screen and (max-width: 800px){
     .background{
+        font-family: Comic Sans MS, Lucida Handwriting;
         width: 100%;
         height: inherit;
         display: flex;

@@ -27,7 +27,7 @@ const Header=()=>{
                         中文 |
                     {/* <AiOutlineZhihu/> */}
                 {/* </Link>  */}
-                <Link href= "/" className={styles.l1}>
+                <Link href= "/project" className={styles.l1}>
                   Projects
                   <AiOutlineExperiment/>
                 </Link>

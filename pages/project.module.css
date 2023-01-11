@@ -1,0 +1,15 @@
+.background{
+    font-family: Comic Sans MS, Lucida Handwriting;
+}
+.p1{
+    padding: 5%;
+    display: flex;
+
+}
+.img1{
+    border-radius: 2em;
+}
+
+.content1{
+    padding-left: 5%;
+}

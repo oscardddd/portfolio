@@ -10,21 +10,23 @@ import Header from "../components/Header.js";
 import schoolpic from "../public/school.png"
 import swe from "../public/swe.jpg"
 import hooper from "../public/hooper.jpg"
-
+import Footer from "../components/footer.js";
 
 
 export default function Home() {
   return(
     <>
     <Head>
-        <meta content="width=device-width, initial-scale=1" />
+        <meta content="width=device-width,initial-scale=1" />
 
     </Head>
-    <nav className={styles.nav}>
-      <Header/>
-    </nav>
+    
+   
+
+    <Header className = {styles.nav}/>
     <div className={styles.background}>
- 
+      
+
         <div className={styles.box1}>
           <div className={styles.upperbox1}>About ⚆_⚆</div>
          
@@ -50,8 +52,7 @@ export default function Home() {
           </div>  
         </div>
       
-        
-  
+      
       <div className={styles.downnav}>
         <Link href="https://github.com/oscardddd">
           <AiFillGithub style={{ fontSize: '3em',color:'black'}}/>
@@ -67,8 +68,9 @@ export default function Home() {
           <AiOutlineInstagram style={{fontSize:'3em',color:'black'}}/>
         </Link>
       </div>
-      </div>
+    </div>
       
+    <Footer/>
      
     </>
     

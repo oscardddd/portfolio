@@ -117,7 +117,7 @@
     }
     .navbar{
      font-size: 1.0em;
-    
+    font-family:  'Comic Sans MS';
      display: flex;
      justify-content: center;
      border: 0px solid #000;

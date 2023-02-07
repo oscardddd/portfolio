@@ -21,6 +21,8 @@ export default function Project(){
                     <Link className={styles.apple} href="https://apps.apple.com/us/app/clubconnect-app/id1659928304">
                         <Image src={apple}/>
                     </Link>
+                    
+                     
                 </div>
                 
             </div>

@@ -1,5 +1,9 @@
+
+
+
+
 .pdf{
-    height: 960px;
+   padding-left: 16%;
 }
 
 
@@ -10,4 +14,10 @@
 .text2{
     text-align: center;
     font-family: Comic Sans MS, Lucida Handwriting;
+}
+
+@media screen and (max-width: 800px){
+    .pdf{
+        padding-left: 0;
+    }
 }

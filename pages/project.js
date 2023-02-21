@@ -13,10 +13,10 @@ export default function Project(){
                     <Image className={styles.img1} src={cc_f} width = {200} height={200}/>
                 </Link>
                 <div className={styles.content1}>
-                    <p >ClubConnect is a student startup under the garage @ northwestern. 
+                    <div>ClubConnect is a student startup under the garage @ northwestern. 
                     It is a platform for enhancing extracurricular involvement to help students get the most out of their college experience. 
                     We have launched online and on AppStore.
-                    </p>
+                    </div>
                     <Link href="https://www.clubconnect-app.com/">https://www.clubconnect-app.com/</Link>
                     <Link className={styles.apple} href="https://apps.apple.com/us/app/clubconnect-app/id1659928304">
                         <Image src={apple}/>

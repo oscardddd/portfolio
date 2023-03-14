@@ -6,6 +6,7 @@
     padding: 10%;
     padding-top: 5%;
     display: flex;
+    padding-bottom: 3%;
 
 }
 .img1{
@@ -15,8 +16,28 @@
 .content1{
     padding-left: 5%;
     font-size: large;
+    padding-top: 7%;
 }
 
+.text2{
+    padding-bottom: 2%;
+}
+
+.p2{
+    padding: 10%;
+    padding-top: 0%;
+    
+    display: flex;
+
+}
+.img2{
+    border-radius: 2em;
+}
+.content2{
+    padding-left: 5%;
+    padding-top: 7%;
+    font-size: large;
+}
 /* @media screen and (max-width: 800px){
     .p1{
         padding-left: 5%;

@@ -1,9 +1,11 @@
 import Image from "next/image"
 import cc from "../public/clubconnect.png"
 import cc_f from "../public/cc_favicon.png"
+import pic2 from "../public/go-getter.jpg"
 import apple from "../public/apple.png"
 import styles from "./project.module.css"
 import Link from "next/link"
+
 
 export default function Project(){
     return(
@@ -24,6 +26,26 @@ export default function Project(){
                     
                      
                 </div>
+                
+            </div>
+            <div className={styles.p2}>
+                
+                    
+                    <Link href= "https://sites.northwestern.edu/gogetter/">
+                        <Image className={styles.img2} src = {pic2} width = {200} height={250}></Image>
+                    </Link>
+
+                    <div className={styles.content2}>
+                        <div className={styles.text2}>
+                            The Go-Getter is a height-adjustable shopping cart designed for people have trouble bending or lifting. It is 
+                            a project for DTC-1, designed and made by Brynn Stasiulis, Clara Asseily, Kyle Yuen, and me.
+                        </div>
+                        
+                        <Link href= "https://sites.northwestern.edu/gogetter/" >
+                            Here is our final report
+                        </Link>
+                    </div>
+                
                 
             </div>
         </div>

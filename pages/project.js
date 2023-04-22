@@ -4,7 +4,7 @@ import cc_f from "../public/cc_favicon.png"
 import pic2 from "../public/go-getter.jpg"
 import apple from "../public/apple.png"
 import styles from "./project.module.css"
-import wex from "../public/wex.png"
+import wex from "../public/Wex.png"
 import Link from "next/link"
 
 
@@ -37,7 +37,7 @@ export default function Project(){
                     </Link>
 
                     <div className={styles.content3}>
-                        
+
                         Wex, a second-hand exchange platform for college students. We designed it for WildHacks 2023.
                     </div>
                 

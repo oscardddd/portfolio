@@ -26,7 +26,6 @@
 .p2{
     padding: 10%;
     padding-top: 0%;
-    
     display: flex;
 
 }
@@ -44,3 +43,18 @@
         display: flex;
     }
 } */
+.p3{
+    padding: 10%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 5%;
+    display: flex;
+    
+
+}
+.content3{
+    
+    padding-top: 7%;
+    padding-left: 1%;
+    font-size: large;
+}

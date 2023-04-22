@@ -4,6 +4,7 @@ import cc_f from "../public/cc_favicon.png"
 import pic2 from "../public/go-getter.jpg"
 import apple from "../public/apple.png"
 import styles from "./project.module.css"
+import wex from "../public/wex.png"
 import Link from "next/link"
 
 
@@ -28,10 +29,24 @@ export default function Project(){
                 </div>
                 
             </div>
-            <div className={styles.p2}>
+            <div className={styles.p3}>
                 
                     
                     <Link href= "https://sites.northwestern.edu/gogetter/">
+                        <Image src = {wex} width = {350} height={200}></Image>
+                    </Link>
+
+                    <div className={styles.content3}>
+                        
+                        Wex, a second-hand exchange platform for college students. We designed it for WildHacks 2023.
+                    </div>
+                
+                
+            </div>
+            <div className={styles.p2}>
+                
+                
+                    <Link href= "https://dashboard.wildhacks.net/project/#MUGF">
                         <Image className={styles.img2} src = {pic2} width = {200} height={250}></Image>
                     </Link>
 

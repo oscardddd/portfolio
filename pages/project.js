@@ -32,7 +32,7 @@ export default function Project(){
             <div className={styles.p3}>
                 
                     
-                    <Link href= "https://sites.northwestern.edu/gogetter/">
+                    <Link href= "https://dashboard.wildhacks.net/project/#MUGF">
                         <Image src = {wex} width = {350} height={200}></Image>
                     </Link>
 
@@ -46,7 +46,7 @@ export default function Project(){
             <div className={styles.p2}>
                 
                 
-                    <Link href= "https://dashboard.wildhacks.net/project/#MUGF">
+                    <Link href= "https://sites.northwestern.edu/gogetter/">
                         <Image className={styles.img2} src = {pic2} width = {200} height={250}></Image>
                     </Link>
 

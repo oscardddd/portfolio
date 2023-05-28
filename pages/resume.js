@@ -5,9 +5,8 @@ export default function Resume(){
     return(
         
         <div className={styles.pdf}>
-            <iframe src="https://drive.google.com/file/d/1WHjb_VJ6NARgmth7smyZEn6LcTHfh6BU/preview" width="1200" height="960" allow="autoplay">
+            <iframe src="https://drive.google.com/file/d/1iu4VtMQaRZPaisiTck3VP4XSrTzUrgj3/preview" width="1200" height="960" allow="autoplay"></iframe>
                 
-            </iframe>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import cc_f from "../public/cc_favicon.png"
 import pic2 from "../public/go-getter.jpg"
 import apple from "../public/apple.png"
 import styles from "./project.module.css"
+import delta from "../public/delta.png"
 import wex from "../public/Wex.png"
 import Link from "next/link"
 
@@ -11,7 +12,17 @@ import Link from "next/link"
 export default function Project(){
     return(
         <div className={styles.background}>
-            <div className={styles.p1}>
+            <div className={styles.cn}>
+                <Link href="https://dtr.northwestern.edu/projects/recdWuoRIEqiwium8">
+                    <Image className={styles.imgcn} src={delta}></Image>
+                </Link>
+                <div className={styles.contentcn}>
+                    I'm an undergraduate researcher at DTR program, where I build cool systems and conduct HCI research. I built the Collective Narrative API,
+                    a storytelling framework that helps motivated novice content creators create multi-perspective 
+                    stories and scaffold sourcing relevant pictures collaboratively from participating perspective groups through a context-aware mechanism.
+                </div>
+            </div>  
+            <div className={styles.clubconnect}>
                 <Link href="https://www.clubconnect-app.com/">
                     <Image className={styles.img1} src={cc_f} width = {200} height={200}/>
                 </Link>
@@ -29,21 +40,21 @@ export default function Project(){
                 </div>
                 
             </div>
-            <div className={styles.p3}>
+            <div className={styles.wex}>
                 
                     
                     <Link href= "https://dashboard.wildhacks.net/project/#MUGF">
-                        <Image src = {wex} width = {350} height={200}></Image>
+                        <Image src = {wex} className={styles.imgwex}></Image>
                     </Link>
 
-                    <div className={styles.content3}>
+                    <div className={styles.contentwex}>
 
                         Wex, a second-hand exchange platform for college students. We designed it for WildHacks 2023.
                     </div>
                 
                 
             </div>
-            <div className={styles.p2}>
+            <div className={styles.gogetter}>
                 
                 
                     <Link href= "https://sites.northwestern.edu/gogetter/">

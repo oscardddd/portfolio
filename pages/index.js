@@ -25,8 +25,6 @@ export default function Home() {
 
     <Header className = {styles.nav}/>
     <div className={styles.background}>
-      
-
         <div className={styles.box1}>
           <div className={styles.upperbox1}>About ⚆_⚆</div>
          

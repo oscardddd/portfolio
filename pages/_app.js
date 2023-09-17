@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }) {
     <div>
         <Head>
             <title>Qianli's site</title>
-            {/* <link rel='icon' type="image/x-icon" href="/images/minion.ico"/> */}
+            <link rel='icon' type="image/x-icon" href="/images/minion.ico"/>
         </Head>
         <Component {...pageProps} />
     </div>

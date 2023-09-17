@@ -21,8 +21,6 @@ export default function Home() {
 
     </Head>
     
-   
-
     <Header className = {styles.nav}/>
     <div className={styles.background}>
         <div className={styles.box1}>

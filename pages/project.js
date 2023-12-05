@@ -17,15 +17,15 @@ export default function Project(){
                     <Image className={styles.imgcn} src={delta}></Image>
                 </Link>
                 <div className={styles.contentcn}>
-                    I'm an undergraduate researcher at DTR program, where I build cool systems and conduct HCI research. I built the Collective Narrative API,
+                    I'm an undergraduate researcher at DTR program, where I build cool social-computing systems and conduct HCI research. I built the Collective Narrative API,
                     a storytelling framework that helps motivated novice content creators create multi-perspective 
                     stories and scaffold sourcing relevant pictures collaboratively from participating perspective groups through a context-aware mechanism.
                 </div>
             </div>  
             <div className={styles.clubconnect}>
-                <Link href="https://www.clubconnect-app.com/">
-                    <Image className={styles.img1} src={cc_f} width = {200} height={200}/>
-                </Link>
+                
+                <Image className={styles.img1} src={cc_f} width = {200} height={200}/>
+                
                 <div className={styles.content1}>
                     <div>ClubConnect is a student startup under the garage @ northwestern. 
                     It is a platform for enhancing extracurricular involvement to help students get the most out of their college experience. 

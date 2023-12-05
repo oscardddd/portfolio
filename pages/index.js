@@ -33,12 +33,12 @@ export default function Home() {
               <Link href="https://www.northwestern.edu/">
                 <Image src={schoolpic} width={200} height={200}></Image>
               </Link>
-              <div>Sophomore at Northwestern University, IL</div>
+              <div>junior at Northwestern University, IL</div>
             </div>
             <div className={styles.line2}>
               <Image className={styles.sweimg} src={swe} width={200} height={200} ></Image>
-              <div>Software Engineer</div>
-              <div className={styles.line21}>(bad at CSS I know)</div>
+              <div>Software Developer</div>
+              <div className={styles.line21}>(bad at CSS)</div>
             </div>
             <div className={styles.line3}>
               <Image className={styles.hoop} src={hooper} width={200} height={200}></Image>

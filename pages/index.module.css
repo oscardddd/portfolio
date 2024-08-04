@@ -3,7 +3,7 @@
 .background{
     
     width: 100%;
-    height: 80em;
+    /* height: 80em; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,38 +67,50 @@
     padding: 0; /* Remove padding */
     text-decoration: underline; /* Optional: remove underline */
     color: inherit; /* Optional: inherit text color */
-    white-space: nowrap
+    white-space: nowrap;
+  }
+
+.linkb {
+    padding: 0; /* Remove padding */
+    text-decoration: underline; /* Optional: remove underline */
+    color: inherit; /* Optional: inherit text color */
+    white-space: nowrap;
+    margin-left: 3%;
   }
 
 
-
 .box1{
-    padding-top: 10%;
-    text-indent: 1em;
+    padding-top: 2%;
+    /* text-indent: 1em; */
     font-family: Comic Sans MS, Lucida Handwriting;
-    font-size: 2em;
-    padding-top: 2em;
-    padding-left: 10em;
-    width: 50%;
-    height: 30em;
+    font-size: 1.6em;
+    /* padding-top: 2em; */
+    /* padding-left: 10em; */
+    width: 55%;
+    padding-bottom: 5%;
+    /* height: 30em; */
   
 }
 .upperbox1{
   
     /* border: #000 solid 3px; */
-    animation-duration: 1s;
-    animation-name: slidein;
-    animation-iteration-count: 1;
+    padding-bottom: 1%;
 
 }
 .upperbox2{
     
     border: #000 solid 3px;
-    border-radius: 40px;
+    border-radius: 30px;
     padding-left: 0.5em;
+    
     /* animation-duration: 2s;
     animation-name: slidein;
     animation-iteration-count: 1; */
+}
+.upperbox3{
+    padding-left: 0.5em;
+    padding-top: 1%;
+
 }
 .upperbox2:hover{
     box-shadow:  10px 10px 0.5px 0.1px rgba(0, 0, 0, 0.6);
@@ -106,6 +118,10 @@
 }
 .line1{
     font-size: 0.75em;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Auto-width for the image, remaining space for the description */
+    gap: 20px; /* Adds space between the image and the description */
+    text-indent: 1em;
     
     /* display: flex; */
     /* justify-content: flex-start; */
@@ -144,24 +160,27 @@
         font-family: Comic Sans MS, Lucida Handwriting;
         width: 100%;
         height: inherit;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
     .box1{
         padding-top: 5%;
-        text-indent: 1em;
+        /* text-indent: 1em; */
         font-family: Comic Sans MS, Lucida Handwriting;
-        font-size: 1em;
+        /* font-size: 1em; */
         
         padding-left: 10%;
         width: 80%;
         height: 100%;
     }
     .line1{
+        /* display: flex;
+        flex-direction: column; */
         display: flex;
-        flex-direction: column;
+        align-items: flex-start; /* Aligns items at the start of the container */
+
     }
     .line2{
         display: flex;
@@ -172,3 +191,11 @@
         flex-direction: column;
     }
 }
+
+
+.imgcn{
+    width: 150px;
+    height: 150px;
+    /* padding-right: 1%; */
+}
+

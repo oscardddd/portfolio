@@ -75,16 +75,9 @@ export default function Home() {
                 <a href="https://en.inspur.com/" className={styles.link}>
                   Inspur
                 </a>{" "}
-                and on business persona analysis platform at{" "}
-                <a
-                  href="https://pitchbook.com/profiles/company/266265-82#overview"
-                  className={styles.link}
-                >
-                  Jinxiandai Information
-                </a>{" "}
-                as an intern. I've also served as an undergraduate teaching
-                assistant for Computer Networking, Database Systems, and
-                Generative Methods at Northwestern.
+                I've also served as an undergraduate teaching assistant for
+                Computer Networking(Winter 2023), Database Systems(Spring 2024), and Generative Methods(Fall 2023) at
+                at Northwestern.
               </div>
             </div>
 

@@ -36,8 +36,8 @@ const Header = () => {
           Blog
           <AiOutlineLaptop />
         </Link>
-        <Link href="/" className={styles.l3}>
-          Contact
+        <Link href="/cv" className={styles.l3}>
+          CV
           <AiOutlineMail />
         </Link>
         <Link href="/resume" className={styles.l3}>

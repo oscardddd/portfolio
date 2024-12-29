@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://nextjs-academic-theme.vercel.app/
+Host: https://www.oscardd5.com
 
 # Sitemaps
-Sitemap: https://nextjs-academic-theme.vercel.app/sitemap.xml
+Sitemap: https://www.oscardd5.com/sitemap.xml

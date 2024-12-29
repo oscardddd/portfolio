@@ -5,11 +5,12 @@ const PublicationList = (): JSX.Element => {
     return (
         <section className="grid w-full" id="publications">
             <h2 className="text-xl font-bold mt-12 mb-4">Publications</h2>
-            <div>
+            <div className = "text-base ml-4 text-gray-700">Under Construction...</div>
+            {/* <div>
               {data.map((publication, index) => (
                 <PublicationItem publication={publication} index={index} key={index}/>
               ))}
-            </div>
+            </div> */}
 
         </section>
     );

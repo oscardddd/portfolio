@@ -1,25 +1,38 @@
 [
     {
-        "title": "Quidditch Seeker SDK",
-        "description": "A tool help you practice Quidditch Cup Champion",
-        "img": "/images/projects/rules.png"
+        "title": "Northwestern Aqualab",
+        "description": "I am a research assistant at Northwestern Aqualab, advised by Fabián E.Bustamante. I'm currently working on mapping IP traceroutes to the underlying physical infrastructures. In the past I've worked on web traffic analysis, including privacy document analysis and deployment centralization analysis.",
+        "img": "/images/projects/aqualab.png"
     },
 
     {
-        "title": "Quidditch Seeker Tool",
-        "description": "A tool help you win Quidditch Cup Champion",
-        "img": "/images/projects/quidditch.png"
+        "title": "Collecto",
+        "description": " A Large Language Model (LLM) based agent that aims at helping people connect with friends at distance by generating prompts of mutual interest and managing interpersonal connections.",
+        "img": "/images/projects/collecto.png"
     },
 
     {
-        "title": "Quidditch Seeker SDK",
-        "description": "A tool help you practice Quidditch Cup Champion",
-        "img": "/images/projects/rules.png"
+        "title": "ClubConnect",
+        "description": "I was part of the founding team and a backend developer at ClubConnect, a startup that helps club administrators manage and advertise their clubs, while also assisting students in enhancing their extracurricular involvement in college. Our App was launched on the iOS App Store",
+        "img": "/images/projects/cc_favicon.png"
     },
 
     {
-        "title": "Quidditch Seeker Tool",
-        "description": "A tool help you win Quidditch Cup Champion",
-        "img": "/images/projects/quidditch.png"
+        "title": "Golang-based distributed system",
+        "description": "A distributed system demo that includes a high fault-tolerance MapReduce framework, a snapshot tool based on Chandy-Lamport algorithm, and a simulated Raft consensus protocol that includes leader election, heartbeat messages, log replication, and persistence layer read/write operations.",
+        "img": "/images/projects/raft.png"
+    },
+    {
+        "title":"Contract Checker For Higher Order Functions",
+        "description": "A simplified PL semantics model that features full type system and contract checking for higher-order functions. Implemented with Racket PLT Redex.",
+        "img": "/images/projects/racket.png"
+    },
+    {
+        "title":"CrowdScope",
+        "description": "Our project for 2023's IEEE technical program, an App that uses crowdsourcing to estimate crowdedness across campus facilities.",
+        "img": "/images/projects/cs.png"
     }
+    
+  
+
 ]

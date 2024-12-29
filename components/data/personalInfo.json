@@ -1,40 +1,37 @@
 {
-    "title": "Harry Potter",
-    "name": "Harry James Potter",
+    "title": "Qianli Dong",
+    "name": "Qianli Dong",
     "domain":"https://nextjs-academic-theme.vercel.app/",
-    "copyright":"harrypotter.me",
+    "copyright":"Oscardd5",
     "socialMedia": {
         "Twitter": "https://twitter.com/",
-        "LinkedIn": "https://www.linkedin.com/",
+        "LinkedIn": "https://www.linkedin.com/in/qianli-dong-3391ab194/",
         "GoogleScholar": "https://scholar.google.com/"
     },
     "about": {
-        "year": "7th-year",
+        "year": "4-year",
         "department": {
-            "name": "Gryffindor",
-            "link": "https://harrypotter.fandom.com/wiki/Gryffindor"
+            "name": "Northwestern",
+            "link": "https://www.northwestern.edu/"
         },
         "college": {
-            "name": "Hogwarts School of Witchcraft and Wizardry",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+            "name": "Mccormick School of Engineering",
+            "link": "https://www.mccormick.northwestern.edu/"
         },
         "advisor": {
-            "name": "Albus Dumbledor",
-            "link": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
+            "name": "Fabian Bustamante",
+            "link": "https://users.cs.northwestern.edu/~fabianb/"
         },
-        "email": "harrypotter AT MyUniversity",
-        "interest": "Defense against Dark Arts Spell; Dark Creatures"
+        "email": "qianlid AT northwestern DOT edu",
+        "interest": "Network Experimentation, Distributed Systems, Edge Computing"
     },
     "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter",
     "education": [
         {
-            "name": "The Auror Department(2007-2008, Visiting Scholar)",
-            "link": "https://harrypotter.fandom.com/wiki/British_Auror_Office"
-        },
-        {
-            "name": "Hogwarts Primary University(1911-1988, Bachelor's in Magic)",
-            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+            "name": "Vanderbilt University (2021-2022)",
+            "link": "https://www.vanderbilt.edu/"
         }
+       
     ]
 
 

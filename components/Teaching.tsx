@@ -7,14 +7,16 @@ const Teaching = (): JSX.Element => {
             <div className="text-base ml-4 text-gray-700">
                 <ul className="list-disc">
                   {data.map((classInfo) => (
-                     <li key={classInfo.id}>TA: {classInfo.id}, {classInfo.name}</li>
+                     <li key={classInfo.id}>
+                        (<b><i>{classInfo.role}</i></b>) {classInfo.id} {classInfo.name} --{classInfo.quarter}
+                     </li>
                   ))}
                 </ul>
             </div>
-
         </section>
     );
 };
+
 
 
 

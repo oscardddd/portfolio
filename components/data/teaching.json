@@ -1,16 +1,11 @@
 [
     {
         "role":"Undergrad TA",
-        "quarter":"Fall 2024",
+        "quarter":"Winter 2024, Fall 2024, Winter 2025",
         "id": "Comp_Sci 340",
-        "name": "Intro to Computer Networking"
+        "name": "Computer Networking"
     },
-    {
-        "role":"Undergrad TA",
-        "quarter":"Winter 2024",
-        "id": "Comp_Sci 340",
-        "name": "Intro to Computer Networking"
-    },
+
     {
         "role":"Undergrad TA",
         "quarter":"Spring 2024",

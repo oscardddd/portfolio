@@ -6,7 +6,7 @@ export default function Resume() {
 
   useEffect(() => {
     // Replace this URL with the public Google Drive link
-    const googleDriveURL = "https://drive.google.com/file/d/1zv7e5sc0IhnprVQf3oI6FAym-QmDi17l/view?usp=sharing";
+    const googleDriveURL = "https://drive.google.com/file/d/1JFQVrMQlg5bdSpjmaUF2MI2xz74oy5-C/preview";
     router.push(googleDriveURL);
   }, [router]);
 

@@ -24,9 +24,9 @@ const Header = ({mounted, resolvedTheme, setTheme, scrolled}: HeaderProps): JSX.
                     <NavLink title="About" href="/#about"/>
                     <NavLink title="Publications" href="/#publications"/>
                     <NavLink title="Projects" href="/projects"/>
-                    <NavLink title="CV" href="/cv"/>
+                    {/* <NavLink title="Resume" href="/resume"/> */}
 
-                    <button
+                    {/* <button
                         type="button"
                         aria-label="Change theme"
                         className="cursor-pointer hover:bg-gray-300 p-1 dark:hover:bg-gray-600 focus:outline-none focus:ring focus:border-blue-30 rounded-md"
@@ -47,7 +47,7 @@ const Header = ({mounted, resolvedTheme, setTheme, scrolled}: HeaderProps): JSX.
                                 />
                             )}
                         </abbr>
-                    </button>
+                    </button> */}
                 </nav>
             </div>
         </header>

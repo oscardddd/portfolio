@@ -1,36 +1,49 @@
 [
     {
+        "title": "Kunata",
+        "description": "Aiming to optimize LLM training across heterogeneous edge devices connected in a wireless environment",
+        "img": "/images/projects/kunata.png",
+        "link": ""
+    },
+
+    {
         "title": "Northwestern Aqualab",
-        "description": "I am a research assistant at Northwestern Aqualab, advised by Fabián E.Bustamante. I'm currently working on mapping IP traceroutes to the underlying physical infrastructures. In the past I've worked on web traffic analysis, including privacy document analysis and deployment centralization analysis.",
-        "img": "/images/projects/aqualab.png"
+        "description": "I am a research assistant at Northwestern Aqualab, advised by Fabián E.Bustamante. My work mainly focuses on submarine cable networks (SCN) and broadband network systems. I'm currently working on revealing the physical layer centralization issues (eg. if all my microservices essentially go through a single cable)",
+        "img": "/images/projects/aqualab.png",
+        "link": "https://aqualab.cs.northwestern.edu/lab-members/"
     },
 
     {
         "title": "Collecto",
         "description": " A Large Language Model (LLM) based agent that aims at helping people connect with friends at distance by generating prompts of mutual interest and managing interpersonal connections.",
-        "img": "/images/projects/collecto.png"
+        "img": "/images/projects/collecto.png",
+        "link": "https://github.com/oscardddd/Collecto"
     },
 
     {
         "title": "ClubConnect",
         "description": "I was part of the founding team and a backend developer at ClubConnect, a startup that helps club administrators manage and advertise their clubs, while also assisting students in enhancing their extracurricular involvement in college. Our App was launched on the iOS App Store",
-        "img": "/images/projects/cc_favicon.png"
+        "img": "/images/projects/cc_favicon.png",
+        "link": "https://www.linkedin.com/company/clubconnect-app/"
     },
 
     {
         "title": "Golang-based distributed system",
         "description": "A distributed system demo that includes a high fault-tolerance MapReduce framework, a snapshot tool based on Chandy-Lamport algorithm, and a simulated Raft consensus protocol that includes leader election, heartbeat messages, log replication, and persistence layer read/write operations.",
-        "img": "/images/projects/raft.png"
+        "img": "/images/projects/raft.png",
+        "link": "https://github.com/oscardddd/CS345-Projects"
     },
     {
         "title":"Contract Checker For Higher Order Functions",
         "description": "A simplified PL semantics model that features full type system and contract checking for higher-order functions. Implemented with Racket PLT Redex.",
-        "img": "/images/projects/racket.png"
+        "img": "/images/projects/racket.png",
+        "link": "https://github.com/oscardddd/396_Contract"
     },
     {
         "title":"CrowdScope",
         "description": "Our project for 2023's IEEE technical program, an App that uses crowdsourcing to estimate crowdedness across campus facilities.",
-        "img": "/images/projects/cs.png"
+        "img": "/images/projects/cs.png",
+        "link": "/projects"
     }
     
   

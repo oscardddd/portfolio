@@ -14,10 +14,10 @@ const About = (): JSX.Element => {
 				<div className="flex flex-col max-w-xl w-full justify-evenly">
 					<h1 className="text-4xl font-bold pb-8 md:pb-0">{personalInfo.name}</h1>
 					<p>
-						I am a 4th year undergraduate student
+						I am a BS/MS student in Computer Science
 						in <ExtLink href= {personalInfo.about.department.link}>{personalInfo.about.department.name} </ExtLink>
-						at <ExtLink href= {personalInfo.about.college.link}>{personalInfo.about.college.name} </ExtLink> 
-						 <br/><a className = "text-sm">✉️ {personalInfo.about.email}</a>
+						at <ExtLink href= {personalInfo.about.college.link}>{personalInfo.about.college.name} </ExtLink>, I'm currently interning at ByteDance's artifact infra team.
+						 <br/><a className = "text-sm">✉️ {personalInfo.about.email}</a>. 
 					</p>
 					<p className = "text-sm text-gray-600">
 						Research Interest: {personalInfo.about.interest}

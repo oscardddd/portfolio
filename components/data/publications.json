@@ -18,5 +18,25 @@
 				"url": ""
 			}
 		]
+	},
+	{
+		"id": 2,
+		"title": "Dora: QoE-Aware Hybrid Parallelism for Distributed Edge AI",
+		"author": "Jianli Jin, Ziyang Lin, Qianli Dong, Yi Chen, Jayanth Srinivasa, Myungjin Lee, Zhaowei Tan, Fan Lai",
+		"conference":"arXiv:2512.10990",
+		"links": [
+			{
+				"name": "pdf",
+				"url": "https://doi.org/10.48550/arXiv.2512.10990"
+			},
+			{
+				"name": "slides",
+				"url": ""
+			},
+			{
+				"name": "video",
+				"url": ""
+			}
+		]
 	}
 ]

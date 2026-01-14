@@ -16,14 +16,14 @@ const About = (): JSX.Element => {
 					<p>
 						I am a BS/MS student in Computer Science
 						in <ExtLink href= {personalInfo.about.department.link}>{personalInfo.about.department.name} </ExtLink>
-						at <ExtLink href= {personalInfo.about.college.link}>{personalInfo.about.college.name} </ExtLink>, I'm currently interning at ByteDance's artifact infra team.
+						at <ExtLink href= {personalInfo.about.college.link}>{personalInfo.about.college.name} </ExtLink>
 						 <br/><a className = "text-sm">✉️ {personalInfo.about.email}</a>. 
 					</p>
 					<p className = "text-sm text-gray-600">
 						Research Interest: {personalInfo.about.interest}
 					</p>
-					<p className = "text-sm text-gray-400">
-						I go by Oscar Dong, if you wanna give a try, my first name can be pronounced as "tsienli" 
+					<p className = "text-sm text-gray-600">
+						A quote I like recently: {personalInfo.about.phrase}
 					</p>
 				</div>
 			</div>

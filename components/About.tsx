@@ -22,9 +22,6 @@ const About = (): JSX.Element => {
 					<p className = "text-sm text-gray-600">
 						Research Interest: {personalInfo.about.interest}
 					</p>
-					<p className = "text-sm text-gray-600">
-						A quote I like recently: {personalInfo.about.phrase}
-					</p>
 				</div>
 			</div>
 		</section>

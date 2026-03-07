@@ -3,19 +3,11 @@
 		"id": 1,
 		"author": "Caleb Wang, Ying Zhang, Qianli Dong, Esteban Carisimo, Ramakrishnan Durairajan, Fabián E. Bustamante",
 		"title": "Threading the Ocean: Mapping Digital Routes Across Submarine Cables using Calypso",
-		"conference": "SIGCOMM '25: Proceedings of the ACM SIGCOMM 2025 Conference.",
+		"conference": "ACM SIGCOMM '25: Proceedings of the ACM SIGCOMM 2025 Conference.",
 		"links": [
 			{
 				"name": "pdf",
 				"url": "https://dl.acm.org/doi/10.1145/3718958.3750512"
-			},
-			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
 			}
 		]
 	},
@@ -28,15 +20,20 @@
 			{
 				"name": "pdf",
 				"url": "https://doi.org/10.48550/arXiv.2512.10990"
-			},
+			}
+		]
+	},
+		{
+		"id": 3,
+		"author": "Caleb Wang, Ying Zhang, Qianli Dong, Esteban Carisimo, Ramakrishnan Durairajan, Fabián E. Bustamante",
+		"title": "Calypso’s Voyage: Charting Traceroute Paths Through Submarine Cables",
+		"conference": "ACM IMC'26: Proceedings of the ACM IMC 2025 Conference.",
+		"links": [
 			{
-				"name": "slides",
-				"url": ""
-			},
-			{
-				"name": "video",
-				"url": ""
+				"name": "pdf",
+				"url": "https://aqualab.cs.northwestern.edu/publication/2026/cwang-imc26/CWang-IMC26.pdf"
 			}
 		]
 	}
+
 ]

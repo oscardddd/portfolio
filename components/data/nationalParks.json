@@ -108,6 +108,15 @@
     "visited": false
   },
   {
+    "code": "CHIR",
+    "name": "Chiricahua",
+    "state": "AZ",
+    "motif": "hoodoos",
+    "lon": -109.3505,
+    "lat": 32.0118,
+    "visited": false
+  },
+  {
     "code": "CONG",
     "name": "Congaree",
     "state": "SC",

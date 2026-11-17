@@ -1,0 +1,569 @@
+[
+  {
+    "code": "ACAD",
+    "name": "Acadia",
+    "state": "ME",
+    "motif": "coast",
+    "lon": -68.2441,
+    "lat": 44.3508,
+    "visited": false
+  },
+  {
+    "code": "NPSA",
+    "name": "American Samoa",
+    "state": "AS",
+    "motif": "island",
+    "lon": -169.4538,
+    "lat": -14.2397,
+    "visited": false
+  },
+  {
+    "code": "ARCH",
+    "name": "Arches",
+    "state": "UT",
+    "motif": "arch",
+    "lon": -109.5955,
+    "lat": 38.7079,
+    "visited": false
+  },
+  {
+    "code": "BADL",
+    "name": "Badlands",
+    "state": "SD",
+    "motif": "badlands",
+    "lon": -102.3939,
+    "lat": 43.8341,
+    "visited": false
+  },
+  {
+    "code": "BIBE",
+    "name": "Big Bend",
+    "state": "TX",
+    "motif": "desert",
+    "lon": -103.2298,
+    "lat": 29.2982,
+    "visited": false
+  },
+  {
+    "code": "BISC",
+    "name": "Biscayne",
+    "state": "FL",
+    "motif": "island",
+    "lon": -80.2183,
+    "lat": 25.4697,
+    "visited": true
+  },
+  {
+    "code": "BLCA",
+    "name": "Black Canyon of the Gunnison",
+    "state": "CO",
+    "motif": "canyon",
+    "lon": -107.724,
+    "lat": 38.5774,
+    "visited": false
+  },
+  {
+    "code": "BRCA",
+    "name": "Bryce Canyon",
+    "state": "UT",
+    "motif": "hoodoos",
+    "lon": -112.1827,
+    "lat": 37.584,
+    "visited": true
+  },
+  {
+    "code": "CANY",
+    "name": "Canyonlands",
+    "state": "UT",
+    "motif": "canyon",
+    "lon": -109.8831,
+    "lat": 38.2721,
+    "visited": false
+  },
+  {
+    "code": "CARE",
+    "name": "Capitol Reef",
+    "state": "UT",
+    "motif": "badlands",
+    "lon": -111.0033,
+    "lat": 37.796,
+    "visited": false
+  },
+  {
+    "code": "CAVE",
+    "name": "Carlsbad Caverns",
+    "state": "NM",
+    "motif": "cave",
+    "lon": -104.5278,
+    "lat": 32.1523,
+    "visited": true
+  },
+  {
+    "code": "CHIS",
+    "name": "Channel Islands",
+    "state": "CA",
+    "motif": "island",
+    "lon": -119.7252,
+    "lat": 34.0039,
+    "visited": false
+  },
+  {
+    "code": "CONG",
+    "name": "Congaree",
+    "state": "SC",
+    "motif": "swamp",
+    "lon": -80.8184,
+    "lat": 33.8062,
+    "visited": false
+  },
+  {
+    "code": "CRLA",
+    "name": "Crater Lake",
+    "state": "OR",
+    "motif": "lake",
+    "lon": -122.1353,
+    "lat": 42.9444,
+    "visited": false
+  },
+  {
+    "code": "CUVA",
+    "name": "Cuyahoga Valley",
+    "state": "OH",
+    "motif": "waterfall",
+    "lon": -81.569,
+    "lat": 41.2607,
+    "visited": false
+  },
+  {
+    "code": "DEVA",
+    "name": "Death Valley",
+    "state": "CA",
+    "motif": "dunes",
+    "lon": -117.1351,
+    "lat": 36.4874,
+    "visited": true
+  },
+  {
+    "code": "DENA",
+    "name": "Denali",
+    "state": "AK",
+    "motif": "peaks",
+    "lon": -151.0526,
+    "lat": 63.2978,
+    "visited": false
+  },
+  {
+    "code": "DRTO",
+    "name": "Dry Tortugas",
+    "state": "FL",
+    "motif": "island",
+    "lon": -82.8666,
+    "lat": 24.6544,
+    "visited": false
+  },
+  {
+    "code": "EVER",
+    "name": "Everglades",
+    "state": "FL",
+    "motif": "swamp",
+    "lon": -80.9535,
+    "lat": 25.2723,
+    "visited": true
+  },
+  {
+    "code": "GAAR",
+    "name": "Gates of the Arctic",
+    "state": "AK",
+    "motif": "glacier",
+    "lon": -153.2641,
+    "lat": 67.9193,
+    "visited": false
+  },
+  {
+    "code": "JEFF",
+    "name": "Gateway Arch",
+    "state": "MO",
+    "motif": "gatewayarch",
+    "lon": -90.186,
+    "lat": 38.6225,
+    "visited": false
+  },
+  {
+    "code": "GLAC",
+    "name": "Glacier",
+    "state": "MT",
+    "motif": "glacier",
+    "lon": -113.8008,
+    "lat": 48.6843,
+    "visited": false
+  },
+  {
+    "code": "GLBA",
+    "name": "Glacier Bay",
+    "state": "AK",
+    "motif": "glacier",
+    "lon": -136.8407,
+    "lat": 58.8009,
+    "visited": false
+  },
+  {
+    "code": "GRCA",
+    "name": "Grand Canyon",
+    "state": "AZ",
+    "motif": "canyon",
+    "lon": -112.1959,
+    "lat": 36.1867,
+    "visited": true
+  },
+  {
+    "code": "GRTE",
+    "name": "Grand Teton",
+    "state": "WY",
+    "motif": "peaks",
+    "lon": -110.7055,
+    "lat": 43.8185,
+    "visited": false
+  },
+  {
+    "code": "GRBA",
+    "name": "Great Basin",
+    "state": "NV",
+    "motif": "peaks",
+    "lon": -114.258,
+    "lat": 38.9462,
+    "visited": false
+  },
+  {
+    "code": "GRSA",
+    "name": "Great Sand Dunes",
+    "state": "CO",
+    "motif": "dunes",
+    "lon": -105.5783,
+    "lat": 37.7599,
+    "visited": false
+  },
+  {
+    "code": "GRSM",
+    "name": "Great Smoky Mountains",
+    "state": "TN",
+    "motif": "forest",
+    "lon": -83.771,
+    "lat": 35.5338,
+    "visited": true
+  },
+  {
+    "code": "GUMO",
+    "name": "Guadalupe Mountains",
+    "state": "TX",
+    "motif": "desert",
+    "lon": -104.8843,
+    "lat": 31.9234,
+    "visited": true
+  },
+  {
+    "code": "HALE",
+    "name": "Haleakalā",
+    "state": "HI",
+    "motif": "volcano",
+    "lon": -156.1471,
+    "lat": 20.7045,
+    "visited": false
+  },
+  {
+    "code": "HAVO",
+    "name": "Hawaiʻi Volcanoes",
+    "state": "HI",
+    "motif": "volcano",
+    "lon": -155.2118,
+    "lat": 19.3261,
+    "visited": false
+  },
+  {
+    "code": "HOSP",
+    "name": "Hot Springs",
+    "state": "AR",
+    "motif": "geyser",
+    "lon": -93.0897,
+    "lat": 34.5111,
+    "visited": false
+  },
+  {
+    "code": "INDU",
+    "name": "Indiana Dunes",
+    "state": "IN",
+    "motif": "dunes",
+    "lon": -87.0324,
+    "lat": 41.6615,
+    "visited": true
+  },
+  {
+    "code": "ISRO",
+    "name": "Isle Royale",
+    "state": "MI",
+    "motif": "lake",
+    "lon": -89.1044,
+    "lat": 47.9008,
+    "visited": false
+  },
+  {
+    "code": "JOTR",
+    "name": "Joshua Tree",
+    "state": "CA",
+    "motif": "desert",
+    "lon": -116.1591,
+    "lat": 33.981,
+    "visited": true
+  },
+  {
+    "code": "KATM",
+    "name": "Katmai",
+    "state": "AK",
+    "motif": "waterfall",
+    "lon": -155.0134,
+    "lat": 58.6226,
+    "visited": false
+  },
+  {
+    "code": "KEFJ",
+    "name": "Kenai Fjords",
+    "state": "AK",
+    "motif": "glacier",
+    "lon": -149.8815,
+    "lat": 59.9539,
+    "visited": false
+  },
+  {
+    "code": "KICA",
+    "name": "Kings Canyon",
+    "state": "CA",
+    "motif": "sequoia",
+    "lon": -118.5938,
+    "lat": 36.8749,
+    "visited": true
+  },
+  {
+    "code": "KOVA",
+    "name": "Kobuk Valley",
+    "state": "AK",
+    "motif": "dunes",
+    "lon": -159.0631,
+    "lat": 67.2826,
+    "visited": false
+  },
+  {
+    "code": "LACL",
+    "name": "Lake Clark",
+    "state": "AK",
+    "motif": "lake",
+    "lon": -153.6018,
+    "lat": 60.6468,
+    "visited": false
+  },
+  {
+    "code": "LAVO",
+    "name": "Lassen Volcanic",
+    "state": "CA",
+    "motif": "volcano",
+    "lon": -121.4121,
+    "lat": 40.4862,
+    "visited": false
+  },
+  {
+    "code": "MACA",
+    "name": "Mammoth Cave",
+    "state": "KY",
+    "motif": "cave",
+    "lon": -86.1309,
+    "lat": 37.1976,
+    "visited": false
+  },
+  {
+    "code": "MEVE",
+    "name": "Mesa Verde",
+    "state": "CO",
+    "motif": "cliffdwelling",
+    "lon": -108.5009,
+    "lat": 37.2235,
+    "visited": false
+  },
+  {
+    "code": "MORA",
+    "name": "Mount Rainier",
+    "state": "WA",
+    "motif": "volcano",
+    "lon": -121.7057,
+    "lat": 46.8606,
+    "visited": true
+  },
+  {
+    "code": "NERI",
+    "name": "New River Gorge",
+    "state": "WV",
+    "motif": "bridge",
+    "lon": -80.9897,
+    "lat": 37.8403,
+    "visited": false
+  },
+  {
+    "code": "NOCA",
+    "name": "North Cascades",
+    "state": "WA",
+    "motif": "peaks",
+    "lon": -121.3476,
+    "lat": 48.833,
+    "visited": true
+  },
+  {
+    "code": "OLYM",
+    "name": "Olympic",
+    "state": "WA",
+    "motif": "forest",
+    "lon": -123.6194,
+    "lat": 47.7945,
+    "visited": true
+  },
+  {
+    "code": "PEFO",
+    "name": "Petrified Forest",
+    "state": "AZ",
+    "motif": "badlands",
+    "lon": -109.6747,
+    "lat": 34.9887,
+    "visited": false
+  },
+  {
+    "code": "PINN",
+    "name": "Pinnacles",
+    "state": "CA",
+    "motif": "hoodoos",
+    "lon": -121.1811,
+    "lat": 36.4901,
+    "visited": false
+  },
+  {
+    "code": "REDW",
+    "name": "Redwood",
+    "state": "CA",
+    "motif": "sequoia",
+    "lon": -124.0048,
+    "lat": 41.277,
+    "visited": false
+  },
+  {
+    "code": "ROMO",
+    "name": "Rocky Mountain",
+    "state": "CO",
+    "motif": "peaks",
+    "lon": -105.6984,
+    "lat": 40.3558,
+    "visited": false
+  },
+  {
+    "code": "SAGU",
+    "name": "Saguaro",
+    "state": "AZ",
+    "motif": "desert",
+    "lon": -110.6083,
+    "lat": 32.1788,
+    "visited": false
+  },
+  {
+    "code": "SEQU",
+    "name": "Sequoia",
+    "state": "CA",
+    "motif": "sequoia",
+    "lon": -118.5658,
+    "lat": 36.4864,
+    "visited": true
+  },
+  {
+    "code": "SHEN",
+    "name": "Shenandoah",
+    "state": "VA",
+    "motif": "forest",
+    "lon": -78.6762,
+    "lat": 38.2811,
+    "visited": false
+  },
+  {
+    "code": "THRO",
+    "name": "Theodore Roosevelt",
+    "state": "ND",
+    "motif": "badlands",
+    "lon": -103.4593,
+    "lat": 46.9536,
+    "visited": false
+  },
+  {
+    "code": "VIIS",
+    "name": "Virgin Islands",
+    "state": "VI",
+    "motif": "island",
+    "lon": -64.7711,
+    "lat": 18.3538,
+    "visited": false
+  },
+  {
+    "code": "VOYA",
+    "name": "Voyageurs",
+    "state": "MN",
+    "motif": "lake",
+    "lon": -92.9806,
+    "lat": 48.5172,
+    "visited": false
+  },
+  {
+    "code": "WHSA",
+    "name": "White Sands",
+    "state": "NM",
+    "motif": "dunes",
+    "lon": -106.3351,
+    "lat": 32.7791,
+    "visited": true
+  },
+  {
+    "code": "WICA",
+    "name": "Wind Cave",
+    "state": "SD",
+    "motif": "cave",
+    "lon": -103.4288,
+    "lat": 43.6079,
+    "visited": false
+  },
+  {
+    "code": "WRST",
+    "name": "Wrangell–St. Elias",
+    "state": "AK",
+    "motif": "glacier",
+    "lon": -142.6036,
+    "lat": 61.4184,
+    "visited": false
+  },
+  {
+    "code": "YELL",
+    "name": "Yellowstone",
+    "state": "WY",
+    "motif": "geyser",
+    "lon": -110.4901,
+    "lat": 44.583,
+    "visited": false
+  },
+  {
+    "code": "YOSE",
+    "name": "Yosemite",
+    "state": "CA",
+    "motif": "dome",
+    "lon": -119.556,
+    "lat": 37.8489,
+    "visited": true
+  },
+  {
+    "code": "ZION",
+    "name": "Zion",
+    "state": "UT",
+    "motif": "canyon",
+    "lon": -112.9544,
+    "lat": 37.2557,
+    "visited": true
+  }
+]
